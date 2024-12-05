@@ -1,14 +1,15 @@
 ---
 const slides = [
-  { index: 1, name: "John Johnson", description: "Marketing dierector at XYZ" },
-  { index: 2, name: "Ana Banana", description: "Marketing dierector at XYZ" },
+  { index: 1, name: "Juan Jiménez", description: "Líder Comunitario", content: "El sistema de alarma ha mejorado significativamente la seguridad de nuestro vecindario. Nos sentimos más seguros sabiendo que la ayuda está a solo una llamada de distancia." },
+  { index: 2, name: "Ana Pérez", description: "Residente", content: "Instalar el sistema de alarma fue una de las mejores decisiones. Proporciona tranquilidad y fomenta la colaboración comunitaria." },
   {
     index: 3,
     name: "Camilo Corintio",
-    description: "Marketing dierector at XYZ",
+    description: "Propietario de Negocio Local",
+    content: "La rápida respuesta y facilidad de uso del sistema de alarma han sido invaluables para la seguridad de nuestra comunidad."
   },
-  { index: 4, name: "Karla Kaz", description: "Marketing dierector at XYZ" },
-  { index: 5, name: "Johanna Jana", description: "Marketing dierector at XYZ" },
+  { index: 4, name: "Karla Mendoza", description: "Miembro de la Vigilancia Vecinal", content: "Este sistema ha unido a nuestra comunidad y nos ha hecho sentir a todos más seguros. Las alertas son efectivas y oportunas." },
+  { index: 5, name: "Johanna López", description: "Propietaria", content: "Saber que el sistema de alarma está en su lugar nos da la confianza de que podemos responder rápidamente a cualquier emergencia." },
 ];
 ---
 
@@ -33,11 +34,7 @@ const slides = [
         >
           <div class="flex flex-col justify-center items-center py-[48px] px-6 sm:px-[52px]">
             <p class="bubble">
-              "We have been working with Positivus for the past year and have
-              seen a significant increase in website traffic and leads as a
-              result of their efforts. The team is professional, responsive, and
-              truly cares about the success of our business. We highly recommend
-              Positivus to any company looking to grow their online presence."
+              {slide.content}
             </p>
           </div>
           <div class="w-full px-10 sm:px-20 ">

@@ -1,15 +1,18 @@
 ---
-import Container from "./Container.astro"
-import Topic from "./Topic.astro"
+import Container from "./Container.astro";
+import Topic from "./Topic.astro";
 import SwiperSlider from "./SwiperSlider.astro";
 ---
+
 <Container>
-<div class="relative flex flex-col items-center md:flex-row">
-    <Topic title="Testimonials" description="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services" />
-</div>
+  <div class="relative flex flex-col items-center md:flex-row">
+    <Topic
+      title="Testimonios"
+      description="Escucha a Nuestros Clientes Satisfechos: Lee Nuestros Testimonios para Conocer Más sobre Nuestro Sistema de Alarma Vecinal"
+    />
+  </div>
 
-<div class="rounded-[45px] bg-black mb-[150px] text-white">
+  <div class="rounded-[45px] bg-black mb-[150px] text-white">
     <SwiperSlider />
-</div>
-
+  </div>
 </Container>
