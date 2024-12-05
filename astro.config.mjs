@@ -9,4 +9,6 @@ import vercel from '@astrojs/vercel/serverless';
 export default defineConfig({
   integrations: [tailwind()],
   output: 'static',
+  site: 'https://telalarms.com',
+  base: '/',
 });
