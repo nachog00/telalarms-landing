@@ -1,0 +1,29 @@
+---
+import Container from "./Container.astro"
+import Topic from "./Topic.astro";
+import teamData from './Data/team.json';
+import Accordion from "./Accordion.astro";
+
+---
+<Container>
+<div class="relative flex flex-col items-center md:flex-row">
+    <Topic title="Proceso" description="Protege tu comunidad en 6 simples pasos"/>
+</div>
+
+<div class="my-6">
+    <div class="space-y-10">
+        {
+            teamData.process.map((item) => {
+                return (
+                <Accordion
+                    index= {item.index}
+                    title={item.label}
+                    description={item.content}
+                />
+                );
+            })
+        }
+    </div>
+</div>
+
+</Container>
