@@ -24,37 +24,37 @@
         }
 
     ],
-    "process":
-    [
-        {
-            "index": 1,
-            "label": "Consultation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "index": 2,
-            "label": "Research",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "index": 3,
-            "label": "Implementation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "index": 4,
-            "label": "Optimization",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "index": 5,
-            "label": "Reporting",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "index": 6,
-            "label": "Improvement",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        }
-    ]
+"process": [
+    {
+        "index": 1,
+        "label": "Evaluación",
+        "content": "Durante la evaluación inicial, analizaremos las necesidades de seguridad de tu comunidad y las condiciones del entorno para determinar la mejor configuración del sistema de alarma vecinal."
+    },
+    {
+        "index": 2,
+        "label": "Planificación",
+        "content": "Desarrollaremos un plan personalizado para la implementación del sistema, considerando la ubicación estratégica de las alarmas y la integración con los servicios de emergencia locales."
+    },
+    {
+        "index": 3,
+        "label": "Instalación",
+        "content": "Nuestro equipo se encargará de la instalación profesional del sistema de alarma, asegurando que todos los componentes funcionen correctamente y estén bien protegidos."
+    },
+    {
+        "index": 4,
+        "label": "Capacitación",
+        "content": "Proporcionaremos capacitación a los miembros de la comunidad sobre cómo utilizar el sistema de manera efectiva, asegurando que todos los usuarios autorizados sepan cómo activar las alarmas en caso de emergencia."
+    },
+    {
+        "index": 5,
+        "label": "Monitoreo",
+        "content": "Ofrecemos servicios de monitoreo continuo para garantizar que el sistema funcione de manera óptima, realizando ajustes técnicos según sea necesario."
+    },
+    {
+        "index": 6,
+        "label": "Mantenimiento",
+        "content": "Realizamos mantenimiento regular y actualizaciones del sistema para asegurar su longevidad y efectividad en la protección de la comunidad."
+    }
+]
+
 }
